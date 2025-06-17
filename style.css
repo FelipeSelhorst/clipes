@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #0f0f18;
+    text-align: center;
+    color: #cfcff1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #050509;
+    align-items: center;
+    justify-content: space-around;
+    gap: 400px;
+    display: flex;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.32);
+    height: 116px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.socials {
+    padding-top: 16px;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.socials img {
+    width: 32px;
+    opacity: 0.85;
+}
+
+.texto {
+    padding: 150px 60px;
+    font-size: 18px;
+}
+
+hr {
+    width: 70%;
+    border: 0;
+    height: 2px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.clips {
+    padding-top: 32px;
+    display: grid;
+}
+
+.clips video {
+    width: 100%;
+    max-width: 1000px;
+    border: #2e3a59 solid 2px;
+    border-radius: 25px;
+}
+
+.clipe {
+    padding: 120px 0;
+}
+
+.clipe p {
+    padding-bottom: 16px;
+    font-size: 32px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 120px;
+    height: 400px;
+    background-color: #050509;
+}
